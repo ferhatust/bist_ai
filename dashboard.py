@@ -216,7 +216,7 @@ with engine.begin() as conn:
     )
 
 with colB:
-    st.markdown("#### 🏆 En İyi 5 (30g)")
+    st.markdown("#### 🏆 En İyi 5 Hisse(30g)")
     st.table(best30.style.hide(axis="index"))
-    st.markdown("#### 🧊 En Kötü 5 (30g)")
+    st.markdown("#### 🧊 En Kötü 5 Hisse(30g)")
     st.table(worst30.style.hide(axis="index"))

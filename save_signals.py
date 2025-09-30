@@ -84,3 +84,6 @@ if __name__ == "__main__":
     save_window(args.window)
     if args.ytd:
         save_ytd()
+
+
+# Bu kod, finansal verileri analiz edip sinyalleri veritabanına kaydeder.
